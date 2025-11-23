@@ -11,7 +11,9 @@ This project analyzes **AI-generated pull requests (PRs)** in the AIDev dataset 
 We investigate three research questions:
 
 **RQ1: What common failure patterns cause AI-generated PRs to be rejected?**
+
 **RQ2: How consistent are AI-generated PR descriptions with the actual code changes?**
+
 **RQ3: What early signals predict whether an AI-generated PR will be accepted or rejected?**
 
 ---
