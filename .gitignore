@@ -11,3 +11,5 @@ data/examples/*
 # Environments
 venv/
 .env/
+
+.Rhistory
