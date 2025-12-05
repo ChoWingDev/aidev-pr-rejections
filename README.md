@@ -14,7 +14,8 @@ We investigate three research questions:
 
 **RQ2: How consistent are AI-generated PR descriptions with the actual code changes?**
 
-**RQ3: What early signals predict whether an AI-generated PR will be accepted or rejected?**
+**RQ3: Do AI-generated PRs attract different types or amounts of reviewer comments compared to
+human PRs?**
 
 ---
 
@@ -25,11 +26,7 @@ aidev-pr-rejections/
 │
 ├── README.md
 ├── .gitignore
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   └── examples/
+├── requirements.txt
 │
 ├── notebooks/
 │   ├── 01_EDA.ipynb
@@ -38,24 +35,11 @@ aidev-pr-rejections/
 │   ├── 04_RQ3_prediction_model.ipynb
 │   └── shared_utils.ipynb
 │
-├── src/
-│   ├── data_processing.py
-│   ├── feature_engineering.py
-│   ├── analysis_rq1.py
-│   ├── analysis_rq2.py
-│   ├── analysis_rq3.py
-│   └── utils.py
-│
 ├── reports/
 │   ├── acm-template/
 │   │   └── main.tex
 │   ├── figures/
 │   └── draft/
-│
-└── results/
-    ├── tables/
-    ├── models/
-    └── plots/
 
 ```
 
